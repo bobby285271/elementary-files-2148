@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2016–2021 elementary, Inc. <contact@elementary.io> -->
+<component type="desktop">
+  <id>io.elementary.files</id>
+  <launchable type="desktop-id">io.elementary.files.desktop</launchable>
+  <translation type="gettext">io.elementary.files</translation>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_group>elementary</project_group>
+  <project_license>GPL-3.0+</project_license>
+  <name>Files</name>
+  <name xml:lang="zh_TW">檔案</name>
+  <name xml:lang="zh_CN">文件</name>
+  <name xml:lang="vi">Tập tin</name>
+  <name xml:lang="ur">فائلیں</name>
+  <name xml:lang="uk">Файли</name>
+  <name xml:lang="ug">ھۆججەتلەر</name>
+  <name xml:lang="tr">Dosyalar</name>
+  <name xml:lang="szl">Zbiory</name>
+  <name xml:lang="sv">Filer</name>
+  <name xml:lang="sr">Датотеке</name>
+  <name xml:lang="sl">Datoteke</name>
+  <name xml:lang="sk">Súbory</name>
+  <name xml:lang="si">ගොනු</name>
+  <name xml:lang="ru">Файлы</name>
+  <name xml:lang="ro">Fișiere</name>
+  <name xml:lang="pt_BR">Arquivos</name>
+  <name xml:lang="pt">Ficheiros</name>
+  <name xml:lang="pl">Pliki</name>
+  <name xml:lang="pa">ਫ਼ਾਇਲਸ</name>
+  <name xml:lang="oc">Fichièrs</name>
+  <name xml:lang="nn">Filer</name>
+  <name xml:lang="nl">Bestanden</name>
+  <name xml:lang="nb">Filer</name>
+  <name xml:lang="mr">फायली</name>
+  <name xml:lang="lt">Failai</name>
+  <name xml:lang="ku">Dosya</name>
+  <name xml:lang="ko">파일</name>
+  <name xml:lang="ja">ファイル</name>
+  <name xml:lang="it">File</name>
+  <name xml:lang="io">Faili</name>
+  <name xml:lang="id">Berkas</name>
+  <name xml:lang="hu">Fájlkezelő</name>
+  <name xml:lang="hr">Datoteke</name>
+  <name xml:lang="he">קבצים</name>
+  <name xml:lang="gl">Ficheiros</name>
+  <name xml:lang="fr">Fichiers</name>
+  <name xml:lang="fi">Tiedostot</name>
+  <name xml:lang="et">Failid</name>
+  <name xml:lang="es">Archivos</name>
+  <name xml:lang="eo">Dosieroj</name>
+  <name xml:lang="en_GB">Files</name>
+  <name xml:lang="el">Αρχεία</name>
+  <name xml:lang="de">Dateien</name>
+  <name xml:lang="da">Filer</name>
+  <name xml:lang="cs">Soubory</name>
+  <name xml:lang="ckb">پەڕگەکان</name>
+  <name xml:lang="ca">Fitxers</name>
+  <name xml:lang="bg">Файлове</name>
+  <name xml:lang="ar">الملفات</name>
+  <name xml:lang="ak">Files</name>
+  <summary>Browse and manage files and folders</summary>
+  <summary xml:lang="zh_TW">瀏覽、管理檔案及資料夾</summary>
+  <summary xml:lang="zh_CN">浏览和管理您的文件</summary>
+  <summary xml:lang="ur">فائلیں اور فولڈر دیکھیں اور منظم کریں</summary>
+  <summary xml:lang="uk">Перегляд і редагування файлів та тек</summary>
+  <summary xml:lang="ug">ھۆججەت-مۇندەرىجىلىرىڭىزنى كۆرۈڭ ۋە باشقۇرۇڭ</summary>
+  <summary xml:lang="tr">Dosya ve klasörlere göz atın ve yönetin</summary>
+  <summary xml:lang="sv">Bläddra igenom och hantera filer och mappar</summary>
+  <summary xml:lang="sr">Raygledajte i upravqajte datotekama i fasciklama</summary>
+  <summary xml:lang="sl">Brskajte in upravljajte z datotekami ali mapami</summary>
+  <summary xml:lang="sk">Prehliadajte a spravujte súbory a priečinky</summary>
+  <summary xml:lang="si">ලිපි ගොනු සොයා බලා, කළමනාකරණය කරන්න</summary>
+  <summary xml:lang="ru">Просмотр и управление файлами и папками</summary>
+  <summary xml:lang="ro">Răsfoieşte şi gestionează fişiere şi dosare</summary>
+  <summary xml:lang="pt_BR">Navegue e gerencie seus arquivos e pastas</summary>
+  <summary xml:lang="pt">Navegar e gerir ficheiros e pastas</summary>
+  <summary xml:lang="pl">Przeglądaj i zarządzaj plikami oraz katalogami</summary>
+  <summary xml:lang="pa">ਫ਼ਾਇਲਾਂ ਅਤੇ ਫ਼ੋਲਡਰਾਂ ਦੀ ਫਰੋਲਾ-ਫਰਾਲੀ ਅਤੇ ਰੱਖ-ਰਖਾਓ</summary>
+  <summary xml:lang="nn">Blad gjennom og behandle filer og mapper</summary>
+  <summary xml:lang="nl">Bekijk en beheer bestanden en mappen</summary>
+  <summary xml:lang="nb">Bla gjennom og behandle filer og mapper</summary>
+  <summary xml:lang="ms">Melihat dan mengurus fail-fail</summary>
+  <summary xml:lang="mr">फायली आणि फोल्डर ब्राउझ आणि व्यवस्थापित करा</summary>
+  <summary xml:lang="lt">Naršyti ir tvarkyti failus ir aplankus</summary>
+  <summary xml:lang="ku">Pelan û Peldankan çav lê bike û rêvebibe</summary>
+  <summary xml:lang="ko">파일과 폴더를 관리합니다</summary>
+  <summary xml:lang="ja">ファイルとフォルダーを閲覧したり管理したりします</summary>
+  <summary xml:lang="it">Sfoglia e gestisci file e cartelle</summary>
+  <summary xml:lang="io">Navigar e direktar faili e direktorii</summary>
+  <summary xml:lang="id">Jelajahi dan kelola berkas dan folder</summary>
+  <summary xml:lang="hu">Fájlok és mappák böngészése és kezelése</summary>
+  <summary xml:lang="hr">Pregledajte i upravljajte datotekama</summary>
+  <summary xml:lang="he">ניווט בין וניהול של קבצים ותיקיות</summary>
+  <summary xml:lang="fr">Recherche et gère les fichiers et les dossiers</summary>
+  <summary xml:lang="fi">Selaa ja hallitse tiedostoja sekä kansioita</summary>
+  <summary xml:lang="et">Kaustade ja failide haldamine</summary>
+  <summary xml:lang="es">Examine y gestione archivos y carpetas</summary>
+  <summary xml:lang="eo">Foliumi kaj mastrumi dosierojn kaj dosierujojn</summary>
+  <summary xml:lang="en_GB">Browse and manage files and folders</summary>
+  <summary xml:lang="el">Περιήγηση και διαχείριση αρχείων και φακέλων</summary>
+  <summary xml:lang="de">Dateien und Ordner durchsuchen und verwalten</summary>
+  <summary xml:lang="da">Gennemse og håndter filer og mapper</summary>
+  <summary xml:lang="cs">Procházet a spravovat soubory a složky</summary>
+  <summary xml:lang="ca">Gestioneu fitxers i carpetes.</summary>
+  <summary xml:lang="bg">Разглеждайте и управлявайте файлове и папки</summary>
+  <summary xml:lang="ak">Hyehyɛ wo files ne folders</summary>
+  <description>
+    <p>Easily copy, move, and rename your files, or use folders to stay organized. Whether you like files in lists, grids or columns, you can always find them right away. Access all your files, whether locally, on an external device or remotely using FTP, SFTP, AFP, Webdav, or Windows share.</p>
+    <p xml:lang="zh_TW">輕鬆複製、移動和改名您的檔案，或使用資料夾來維持井然有序。無論您是希望用清單、柵格、或多欄的方式列出檔案，您都可以隨時找到它們。不管是在本機上、外接裝置上、或是使用 FTP、SFTP、AFP、Webdav、或 Windows 網路芳鄰等遠端上，都能存取您的所有檔案。</p>
+    <p xml:lang="zh_CN">用文件夹保持文件整洁有序，在自己喜欢的视图中快速找到文件，轻松完成复制、移动和删除文件等操作。无论是内置硬盘中的文件，还是外接设备、远程设备中的文件，统统不在话下。</p>
+    <p xml:lang="uk">Легко копіюйте, переміщуйте та перейменовуйте файли або використовуйте теки для впорядкування. Незалежно від того, подобаються вам файли впорядковані списком, сіткою чи стовпчиком, ви завжди можете знайти їх відразу. Отримуйте доступ до всіх своїх файлів, будь то локально, на зовнішньому пристрої або віддалено, за допомогою FTP, SFTP, AFP, Webdav або спільний доступ до Windows.</p>
+    <p xml:lang="ug">مۇندەرىجىلەرنى ئىشلىتىپ ھۆججەتلەرنى رەتلىك ساقلىيالايسىز، ئاسانلا كۆچۈرەلەيسىز، يۆتكىيەلەيسىز ۋە قايتا ئىسىم قويالايسىز. مەيلى سىز ھۆججەتلەرنى تىزىملىك شەكلىدە ساقلاشنى ياقتۇرۇڭ ياكى كاتەكچە شەكلىدە ساقلاڭ ۋەياكى تىك شەكىلدە ساقلاڭ ھۆججەتلىرىڭىزنى ئاسانلا تاپالايسىز. كومپىيۇتىرىڭىزدىكى ھۆججەت، سىرتقى ئۈسكۈنىدىكى ھۆججەت ياكى سىز كۆچمە ھالىتىدە FTP, SFTP, AFP , نەشىر كونترول قىلىش ئەپى ياكى Windows ھەمبەھىرىنى ئىشلىتىۋاتقان بولۇڭ، ھۆججەتلىرىڭىزنى ئاسانلا زىيارەت قىلالايسىز.</p>
+    <p xml:lang="tr">Kolaylıkla dosyalarınızı kopyalayabilir, yeniden adlandırabilir, taşıyabilirsiniz ya da düzenli olması için klasörleri kullanabilirsiniz. Dosyaları liste, ızgara veya sütun şeklinde görüntüleyip kolayca bulabilirsiniz. Tüm dosyalarınıza erişebilir, yerel dosyalarınızı harici cihazla ya da FTP, SFTP, AFP, Webdav ve Windows ile paylaşabilirsiniz.</p>
+    <p xml:lang="sv">Kopiera, flytta och byt namn på dina filer, eller använd mappar för att organisera. Oavsett om du gillar filer i listformat, rutnät eller kolumner så kan du alltid hitta dem direkt. Få tillgång till alla dina filer, lokalt, på en extern lagringsenhet eller via FTP, SFTP, AFP, Webdav eller Windows-delning.</p>
+    <p xml:lang="sr">С лакоћом умножите, преместите и преименујте ваше датотеке, или користите фасцикле да бисте били организовани. Било да волите датотеке на списку, мрежи или у колонама, увек их можете одмах наћи. Приступите свим вашим датотекама, било локално, на спољном уређају или удаљено користећи ФТП, СФТП, АФП, Вебдав или Виндоуз дељење.</p>
+    <p xml:lang="sl">Preprosto kopirajte, premikajte ali preimenujte vaše datoteke in mape. Podpira veliko različnih pogledov in dostop do lokalnih ter omrežnih datotek preko FTP, SFTP, AFP, Webdav ali Windows protokola.</p>
+    <p xml:lang="sk">Jednoducho kopírujte, presúvajte a premenúvajte svoje súbory, alebo si pre udržanie poriadku vytvorte priečinky. Bez ohľadu na to, či sa vám páči zobrazenie súborov v zozname, v mriežke alebo v stĺpcoch, vždy ich nájdete na svojom mieste. Pristupujte ku všetkým vašim súborom, či už miestnym, na externom úložisku, prípadne vzdialene pomocou FTP, SFTP, AFP, Webdav alebo zdieľania Windows.</p>
+    <p xml:lang="ru">Без труда управляйте вашими файлами и используйте папки для их организации. Вы можете использовать ваш любимый тип отображения: значки, список или таблицу. Имейте доступ ко всем вашим файлам, включая локальные, на внешнем или на удалённом устройстве, используя FTP, SFTP, AFP, WebDAV или доступ к Windows.</p>
+    <p xml:lang="ro">Copiază, mută şi redenumeşte fişierele tale cu uşurinţă, sau foloseşte dosare pentru a rămane organizat. Fie ca iţi plac fişierele în liste, grile sau coloane, le poţi gasi imediat. Accesează toate fişierele, fie ele locale, pe un disc extern sau la distanţa folosind FTP, SFTP, AFP, Webdav, sau partajare Windows.</p>
+    <p xml:lang="pt_BR">Copie, mova e renomeie seus arquivos facilmente, ou use suas pastas para o manter organizados. Não importa como você goste de visualizá-los, listas, grades ou colunas, você sempre vai achá-los da maneira correta. Acesse todos os seus arquivos, seja localmente, em um dispositivo externo ou remotamente usando FTP, SFTP, AFP, Webdav ou Compartilhamento com o Windows.</p>
+    <p xml:lang="pt">Copie, mova e renomeie os seus ficheiros facilmente, ou utilize pastas para se organizar. Quer goste de ficheiros em listas, grelhas ou colunas, pode sempre encontrar os seus ficheiros rapidamente. Aceda a todos os seus ficheiros, tanto localmente, como num disco externo ou remotamente através de FTP, SFTP, AFP, Webdav ou Windows share.</p>
+    <p xml:lang="pl">Kopiuj z łatwością, przenoś, zmieniaj nazwy swoich plików oraz używaj katalogów, aby utrzymać porządek. Zawsze kiedy chcesz przeglądać pliki w postaci list, siatki lub kolumn możesz znaleźć je we właściwym miejscu. Utrzymuj dostęp do wszystkich swoich plików, zarówno lokalnie jak i na urządzeniach zewnętrznych lub zdalnych, używając rozwiązań FTP, SFTP, AFP, WebDAV lub udziałów systemu Microsoft Windows.</p>
+    <p xml:lang="pa">ਆਪਣੀਆਂ ਫ਼ਾਇਲਾਂ ਦੀ ਅਸਾਨੀ ਨਾਲ਼ ਨਕਲ, ਸਥਾਨਅੰਤਰਨ, ਅਤੇ ਨਾਂ ਬਦਲੀ ਕਰੋ, ਜਾਂ ਵਧੀਆ ਪ੍ਰਬੰਧਨ ਲਈ ਫ਼ੋਲਡਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ। ਚਾਹੇ ਤੁਹਾਨੂੰ ਫ਼ਾਇਲਾਂ ਲਿਸਟ, ਜੰਗਲੇ, ਜਾਂ ਕਾਲਮਾਂ ਵਿੱਚ ਪਸੰਦ ਹੋਣ, ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਫ਼ੌਰਨ ਲੱਭ ਸਕਦੇ ਹੋ। ਲੋਕਲ, ਬਾਹਰੀ ਡਿਵਾਈਸ, ਜਾਂ ਫਿਰ ਦੂਰੋਂ ਐੱਫ਼ ਟੀ ਪੀ, ਐੱਸ ਐੱਫ਼ ਟੀ ਪੀ, ਏ ਐੱਫ਼ ਪੀ, ਵੈੱਬ ਡੀ ਏ ਵੀ, ਜਾਂ ਵਿੰਡੋਜ਼ ਸਾਂਝ ਜ਼ਰੀਏ ਤੁਸੀਂ ਆਪਣੀਆਂ ਸਾਰੀਆਂ ਤੱਕ ਪਹੁੰਚ ਸਕਦੇ ਹੋ।</p>
+    <p xml:lang="nn">Enkel kopiering, flytting og namngjeving av filer, eller bruk av mapper for å organisere. Det er det same om du føretrekk filene dine i lister, rutenett eller kolonnar – du kan alltid finne dei med éin gong. Du får tilgjenge til alle filene dine, anten dei er på ein lokal harddisk, ei ekstern eining eller andre stadar ved bruk av FTP, SFTP, AFP, WebDAV eller Windows-deling.</p>
+    <p xml:lang="nl">Kopieer, verplaats en hernoem uw bestanden eenvoudig of gebruik mappen om goed georganiseerd te blijven. U kunt uw bestanden altijd direct vinden, of u ze nu het liefst ordent als lijst, in kolommen of op een raster. U heeft toegang tot al uw bestanden, zowel lokaal, als op een extern apparaat of via FTP, SFTP, AFP, Webdav of Windows share.</p>
+    <p xml:lang="nb">Enkel kopiering, flytting og navngivning av filer, eller bruk av mapper for å organisere. Hvorvidt du liker filer i lister, rutenett eller kolonner, kan du alltid finne dem umiddelbart. Tilgang til alle dine filer, hvorvidt lokalt, på en ekstern enhet eller annensteds hen ved bruk av FTP, SFTP, AFP, WebDAV eller Windows-deling.</p>
+    <p xml:lang="ms">Salinkan, pindahkan, dan namakan semula fail-fail anda, atau gunakan "folders" bagi pengurusan. Biarpun anda menyukai fail disusun dalam senaraian, grid atau kolum, anda sentiasa dapat mencarikan fail dengan cepat. Akseskan semua fail-fail anda, biarkan fail-fail dalam komputer ini, peranti luaran, ataupun dari jauh menggunakan FTP, SFTP, AFP, Webdav atau "Windows share".</p>
+    <p xml:lang="mr">आपल्या फायली सहजपणे कॉपी करा, हलवा आणि पुनर्नामित करा किंवा व्यवस्थापित राहण्यासाठी फोल्डर वापरा. आपल्याला याद्या, ग्रीड किंवा स्तंभांमध्ये फायली आवडतात, आपण त्या तशाच नेहमी शोधू शकता. आपल्या सर्व फाइल्स ऍक्सेस करा, स्थानिकरित्या, बाह्य डिव्हाइसवर किंवा दूरस्थपणे FTP, SFTP, AFP, Webdav किंवा Windows सामायिकरण वापरून.</p>
+    <p xml:lang="lt">Lengvai kopijuokite, perkelkite, tvarkykite savo failus, naudokite aplankus, kad palaikytumėte tvarką savo kompiuteryje. Atvaizduodami failus sąrašais, tinkleliu ar stulpeliais, visada rasite tai, ko jums reikia. Pasiekite visus savo failus taip pat ir išoriniame įrenginyje bei nuotoliniu būdu, naudodami FTP, SFTP, AFP, Webdav, ar Windows viešinius.</p>
+    <p xml:lang="ko">쉽게 복사하고, 이동하고, 이름을 바꾸거나, 정렬하게 합니다. 목록, 그리드, 컬럼 형식 등 여러분이 원하는 방법대로 찾아볼 수 있습니다. 컴퓨터에 있던, 외부 저장장치에 있던, 외부에서 원격으로 접속하는 FTP, SFTP, Webdav, 또는 윈도우 공유이던 찾고자 하는 모든 파일을 찾아볼 수 있습니다.</p>
+    <p xml:lang="ja">ファイルのコピー・移動・名前の変更や、フォルダーを使っての整理が簡単に行えます。リスト形式、グリッド形式、カラム形式のどれが好みであっても、いつでもすぐにファイルを見つけることが可能です。ファイルの場所がローカル、外部デバイスや FTP、SFTP、AFP、Webdav などのリモートや Windows 共有であっても、すべてのファイルにアクセスできます。</p>
+    <p xml:lang="it">Copia, muovi, e rinomina facilmente i tuoi file oppure utilizza cartelle per rimanere organizzato. Che tu li preferisca organizzati in liste, griglie oppure colonne, puoi sempre trovarli in un attimo. Accedi a tutti i tuoi file sia a livello locale, sia su un dispositivo esterno o in remoto tramite FTP, SFTP, AFP, WebDAV, o condivisione di Windows.</p>
+    <p xml:lang="id">Menyalin, memindahkan, dan mengganti nama berkas Anda dengan mudah, atau gunakan folder agar tetap teratur. Apakah Anda menyukai berkas dalam bentuk daftar, kisi atau kolom, Anda selalu dapat menemukannya dengan segera. Akses semua berkas Anda, baik lokal, pada perangkat eksternal atau jarak jauh menggunakan FTP, SFTP, AFP, Webdav, atau Windows share.</p>
+    <p xml:lang="hu">Könnyedén másolhat, áthelyezhet és átnevezhet fájlokat, vagy használhat mappákat a szervezéshez. Könnyen megtalálhatja fájljait akár a lista-, rács- vagy oszlopnézetet választja. Elérheti adatait akár helyi, akár külső eszközön vagy FTP, SFTP, AFP, Webdav vagy Windows share szolgáltatáson keresztül is.</p>
+    <p xml:lang="hr">Lagano kopirajte, premjestite i preimenujte svoje datoteke ili koristite mape kako bi ostali organizirani. Bilo da volite prikaz datoteka u popisu, mreži ili stupcima, uvijek ih možete odmah pronaći. Pristupite svim svojim datotekama lokalno, na vanjskim uređajima ili udaljeno putem FTP, SFTP, AFP, Webdava, ili Windows dijeljenja.</p>
+    <p xml:lang="he">ניתן להעתיק, להעביר ולשנות שמות של הקבצים שלך. בין אם מעניין אותך לראות את הקבצים ברשימות, טבלאות או עמודות, תמיד ניתן למצוא אותם בהישג יד. לגשת לקבצים שלך, בין אם באופן מקומי, בהתקן חיצוני או בחיבור מרוחק דרך FTP,‏ SFTP,‏ AFP,‏ Webdav או שיתוף Windows.</p>
+    <p xml:lang="fr">Copiez, déplacez et renommez vos fichiers ou utilisez vos dossiers pour rester organisé. Que vous aimiez les fichiers listés, en grille ou en colonne, vous pouvez toujours les trouver aussitôt. Accédez à tous vos fichiers, que ce soit localement, sur un appareil externe ou à distance avec FTP, SFTP, AFP, Webdav ou Windows share.</p>
+    <p xml:lang="fi">Kopioi, siirrä ja nimeä uudelleen tiedostoja. Hallitse kansioita ja pysy järjestelmällisenä. Katsele tiedostoja luettelo-, ruudukko- tai kolumninäkymässä. Käytä tiedostoja paikallisesti tai etänä FTP:n, SFTP:n, AFP:n, WebDAV:in tai Windows-jakojen kautta.</p>
+    <p xml:lang="et">Lihtne failide kopeerimine, liigutamine või ümbernimetamine. Või kasuta kaustu, et kõik organiseeritum oleks. Failide leidmine on lihtne, sest võimalik on faile vaadata nimekirjana, võrgustikuna või veergudena. Kõik failid in sinu jaoks kättesaadavad, olgu need sinu arvutis, välisel seadmel või võrgus, mille jaoks on FTP, SFTP, AFP, Webdav või Windows'i jagatud failid.</p>
+    <p xml:lang="es">Copie, mueva y cambie el nombre de sus archivos con facilidad y mantenga su organización con ayuda de carpetas. Téngalos siempre a mano eligiendo la visualización que más le guste, ya sea en forma de lista, cuadrícula o por columnas. Acceda a todos sus archivos, tanto locales y de soportes externos como remotos, por medio de FTP, SFTP, AFP, WebDAV o recursos compartidos de Windows.</p>
+    <p xml:lang="eo">Facile kopiu, movu, kaj renomu viajn dosierojn, aŭ uzu dosierujojn por organiziĝi. Sendepende ĉu vi emas ordigi en listo, krado aŭ kolumnoj, eblas trovi ilin tuj. Aliru ĉiujn viajn dosierojn, ĉu surloke, aŭ en eksterna memorujo, aŭ defore per FTP-, SFTP-, AFP-, Webdav-aŭ Vindoza kunhavigo-protokoloj.</p>
+    <p xml:lang="en_GB">Easily copy, move, and rename your files, or use folders to stay organised. Whether you like files in lists, grids or columns, you can always find them right away. Access all your files, whether locally, on an external device or remotely using FTP, SFTP, AFP, Webdav, or Windows share.</p>
+    <p xml:lang="de">Mit dieser Anwendung können Sie schnell und einfach Dateien kopieren, verschieben und umbenennen sowie sie in Ordnern organisieren, um den Überblick behalten zu können. Egal, ob Sie Dateien in Listen, Rastern oder Spalten anzeigen lassen wollen: Sie finden immer sofort die richtige. Sie können auf alle Dateien zugreifen, unabhängig davon, wo sie gespeichert sind: auf einem internen oder externen Datenträger oder auf einem FTP-, SFTP-, AFP-, WebDAV- oder Windows-Freigabe-Server.</p>
+    <p xml:lang="da">Nem kopiering, flytning og omdøbning af dine filer, eller brug mapper til at organisere. Hvad enten du kan lide filer i lister, gitre eller kolonner, kan du altid finde dem med det samme. Tilgå alle dine filer, hvad enten det er lokale eller på en ekstern enhed eller fjernt ve brug af FTP, SFTP, AFP, Webdav eller Windows-share.</p>
+    <p xml:lang="cs">Jednoduše kopírujte, přesouvejte a přejmenovávejte své soubory, nebo pro udržení pořádku používejte složky. Ať už máte rádi soubory v seznamech, mřížkách nebo sloupcích, vždy je najdete na svém místě. Přistupujte ke všem svým souborům lokálně, na externím úložišti, nebo vzdáleně pomocí FTP, SFTP, AFP, Webdav nebo sdílení Windows.</p>
+    <p xml:lang="ca">Copieu, moveu i canvieu fàcilment el nom dels vostres fitxers, o utilitzeu carpetes per mantenir-vos organitzats. Tant si us agraden els fitxers posats en llistes, graelles o columnes, sempre els podeu trobar immediatament. Accediu als vostres fitxers, ja sigui localment, en un dispositiu extern o de forma remota a través d'FTP, SFTP, AFP, WebDAV o d'un recurs compartit de Windows.</p>
+    <p xml:lang="bg">Лесно копирайте, местете и преименувайте вашите файлове или директории, за да останете останете организирани. Независимо дали предпочитате списъци, мрежи или колони, винаги можете да намерите веднага. Достъпвайте ввсичките си файлове независимо дали се намират локално, на външно устройство, или отдалечено, използвайки FTP, SFTP, AFP, Webdav, или споделяне през Windows.</p>
+  </description>
+  <provides>
+    <binary>io.elementary.files</binary>
+    <binary>io.elementary.files-daemon</binary>
+    <binary>io.elementary.files-pkexec</binary>
+  </provides>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/files/6.3.0/data/screenshot-grid.png</image>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/files/6.3.0/data/screenshot-list.png</image>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/files/6.3.0/data/screenshot-column.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="6.3.0" date="2023-02-27" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Move global settings from the context menu to an app menu in the headerbar</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/593">Zooming is hidden</issue>
+        <issue url="https://github.com/elementary/files/issues/1163">Invert logic of Show/Hide Thumbnails</issue>
+        <issue url="https://github.com/elementary/files/issues/1781">Some devices not accessible by MTP or PTP</issue>
+        <issue url="https://github.com/elementary/files/issues/1997">Path completion should be case sensitive</issue>
+        <issue url="https://github.com/elementary/files/issues/2047">Filechooser default typing action is search instead of rename</issue>
+      </issues>
+    </release>
+    <release version="6.2.2" date="2023-02-03" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/pull/2122">Avoid crashes when disconnecting the provider</issue>
+        <issue url="https://github.com/elementary/files/issues/2115">Paste into folder menu item doesn't work</issue>
+        <issue url="https://github.com/elementary/files/pull/2107">Improve double-click setting label</issue>
+        <issue url="https://github.com/elementary/files/issues/2105">Sidebar icons sometimes change</issue>
+      </issues>
+    </release>
+    <release version="6.2.1" date="2022-11-15" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/files/issues/2098">New empty file closes the app</issue>
+      </issues>
+    </release>
+    <release version="6.2.0" date="2022-11-04" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Provide option to select folders with single click and activate with double click</li>
+          <li>Only show the properties overlay when files are selected, not when hovered</li>
+        </ul>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix unexpected file activation after navigation with double-click</li>
+          <li>Fix dimmed window after use of filechooser portal</li>
+          <li>Fix possible crash when rapidly changing view modes</li>
+          <li>Fix startup when restored remote location is no longer connected</li>
+          <li>Ensure infobar shows in connection server dialog when connection attempt fails</li>
+          <li>Ensure correct icon for bookmark to a file that is not a folder</li>
+          <li>Fix possible crash when removing a bookmark</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.1.4" date="2022-06-17" urgency="medium">
+      <description>
+        <p>Fixes:</p>
+        <ul>
+          <li>A regression in zooming out using Ctrl + ScrollDown is fixed</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.1.3" date="2022-06-17" urgency="medium">
+      <description>
+        <p>Fixes:</p>
+        <ul>
+          <li>Renaming with the same name no longer shows an error dialog</li>
+          <li>Ctrl + A when renaming now selects all the text in the entry</li>
+          <li>Selecting multiple items with Shift + Arrow keys now works properly</li>
+          <li>The appearance of the cursor now matches the action</li>
+          <li>The Trash sidebar item can no longer be removed</li>
+          <li>Network sidebar plugins such as NextCloud are now added correctly</li>
+          <li>Duplication of subfolders in ListView under some circumstances is fixed</li>
+          <li>Bookmarks are now highlighted when a file they can accept is dragged onto them</li>
+          <li>Folders not being restored properly under some circumstances is fixed</li>
+          <li>Show confirmation dialog in file chooser before overwriting an existing file</li>
+          <li>Ctrl + V now always pastes into background folder</li>
+          <li>Shift + Ctrl + V now pastes into selected folder if there is one</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.1.2" date="2022-01-24" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Show New Tab and New Window shortcuts in context menus</li>
+        </ul>
+        <p>Fixes:</p>
+        <ul>
+          <li>Double click selects instead of exiting while renaming in list view</li>
+          <li>Show public share icon in breadcrumbs</li>
+          <li>Prevent a crash when dragging to re-arrange bookmarks</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.1.1" date="2021-12-09" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Close FileChooser with Esc key</li>
+          <li>Use new emblems for git status</li>
+          <li>Show selection actions in secondary click menu</li>
+        </ul>
+        <p>Fixes:</p>
+        <ul>
+          <li>Always show Permissions page in Properties dialog</li>
+          <li>In Permissions page, show user and group numeric IDs when names not available</li>
+          <li>In Permissions page, show message when no information available</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Only allow one FileChooser per parent window</li>
+          <li>Navigate to folder when pressing enter in FileChooser instead of selecting</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.1.0" date="2021-11-29" urgency="medium">
+      <description>
+        <p>Improvements:</p>
+        <ul>
+          <li>Use "Send Mail" portal instead of contract, improving compatibility with alternate email apps</li>
+          <li>Add file filters and New Folder options to file chooser portal</li>
+          <li>Allow blank passwords for remote connections, e.g. for SSH via a private key</li>
+          <li>Make ejecting devices safer</li>
+          <li>Add option to stop drive if possible</li>
+          <li>Show unformatted drives and drives without media</li>
+        </ul>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix pasting of selected pathbar text into another window using middle-click</li>
+          <li>Fix selecting multiple groups of files</li>
+          <li>Allow dropping bookmark directly below the Recent bookmark</li>
+          <li>Do not show unusable drop target below the Trash bookmark</li>
+          <li>Fix sidebar showing both drive and volume for same device</li>
+          <li>Fix sidebar showing SSH servers in both Storage and Network sections</li>
+        </ul>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.0.4" date="2021-10-29" urgency="medium">
+      <description>
+        <p>Fixes:</p>
+        <ul>
+          <li>Show translated bookmark names when changing languages</li>
+          <li>Stop some audio file icons disappearing when scrolling or changing view</li>
+          <li>Stop brief appearance of status overlay when changing root folder in Column View</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Remove message about reporting issues when running from Terminal</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.0.3" date="2021-09-27" urgency="medium">
+      <description>
+        <p>Fixes:</p>
+        <ul>
+          <li>Open bookmarks in a new tab with Ctrl + Click</li>
+          <li>Fix dropping uris onto storage devices and network locations in sidebar</li>
+          <li>Fix restoring tabs after a system restart</li>
+          <li>Don't unselect when secondary clicking blank space around a file or folder</li>
+          <li>Show the folder context menu when secondary clicking outside of a selection</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.0.2" date="2021-08-24" urgency="medium">
+      <description>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix small context menus on breadcrumbs</li>
+          <li>Fix bookmarking a single selected item with Ctrl + D</li>
+          <li>Fix renaming bookmarks in the sidebar</li>
+          <li>Fix an issue with showing color tags when thumbnails are hidden</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.0.1" date="2021-08-02" urgency="medium">
+      <description>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix freeze when comparing copied files</li>
+          <li>Fix truncation of final column in Column View under some circumstances</li>
+        </ul>
+        <p>Improvements:</p>
+        <ul>
+          <li>Show more keyboard accelerators in menus</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="6.0.0" date="2021-07-15" urgency="medium">
+      <description>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix connecting to AFP servers so that passwords are remembered</li>
+          <li>Fix MTP mounts</li>
+        </ul>
+        <p>Improvements:</p>
+        <ul>
+          <li>Launch files with double click instead of single click</li>
+          <li>Provide a File Chooser portal for Flatpak apps</li>
+          <li>Brand new animated Sidebar</li>
+          <li>Dark style support</li>
+          <li>Mint and Bubblegum color tags</li>
+          <li>Do not restore locations that have become inaccessible</li>
+          <li>Clicking between thumbnail and text now activates/selects in Grid view</li>
+          <li>AFC protocol support</li>
+          <li>Add a smaller minimum icon size in list view</li>
+          <li>Show emblems inline in list views</li>
+          <li>Performance improvements</li>
+          <li>Stability improvements</li>
+        </ul>
+        <p>Other updates:</p>
+        <ul>
+          <li>Rename "Devices" to "Storage"</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="4.5.0" date="2020-08-11"/>
+    <release version="4.4.4" date="2020-06-30"/>
+    <release version="4.4.3" date="2020-06-01"/>
+    <release version="4.4.2" date="2020-04-03"/>
+    <release version="4.4.1" date="2020-02-29"/>
+    <release version="4.4.0" date="2020-02-11"/>
+    <release version="4.3.0" date="2020-01-07"/>
+    <release version="4.2.0" date="2019-09-09"/>
+    <release version="4.1.9" date="2019-07-26"/>
+    <release version="4.1.8" date="2019-05-02"/>
+    <release version="4.1.7" date="2019-04-08"/>
+    <release version="4.1.6" date="2019-03-26"/>
+    <release version="4.1.5" date="2019-02-13"/>
+    <release version="4.1.4" date="2019-01-31"/>
+    <release version="4.1.3" date="2019-01-09"/>
+    <release version="4.1.2" date="2019-01-02"/>
+    <release version="4.1.1" date="2018-12-28"/>
+    <release version="4.1.0" date="2018-12-27"/>
+    <release version="4.0" date="2018-10-16"/>
+    <release version="0.3.5" date="2017-06-03"/>
+    <release version="0.3.3" date="2017-04-10"/>
+    <release version="0.3.2" date="2017-02-25"/>
+    <release version="0.3.1.1" date="2017-01-25"/>
+    <release version="0.3.1" date="2017-01-16"/>
+    <release version="0.3.0.5" date="2016-12-16"/>
+    <release version="0.3.0.4" date="2016-11-19"/>
+    <release version="0.3.0.3.1" date="2016-10-10"/>
+    <release version="0.3.0.3" date="2016-10-10"/>
+    <release version="0.3.0.2" date="2016-09-01"/>
+  </releases>
+  <developer_name>elementary, Inc.</developer_name>
+  <developer_name xml:lang="uk">elementary, Inc.</developer_name>
+  <developer_name xml:lang="tr">elementary, Inc.</developer_name>
+  <developer_name xml:lang="ru">elementary, Inc.</developer_name>
+  <developer_name xml:lang="pt">elementary, Inc.</developer_name>
+  <developer_name xml:lang="pl">elementary, Inc.</developer_name>
+  <developer_name xml:lang="mr">elementary, Inc.</developer_name>
+  <developer_name xml:lang="ja">elementary, Inc.</developer_name>
+  <developer_name xml:lang="he">elementary בע״מ.</developer_name>
+  <developer_name xml:lang="fr">elementary, Inc.</developer_name>
+  <developer_name xml:lang="fi">elementary, Inc.</developer_name>
+  <developer_name xml:lang="es">elementary, Inc.</developer_name>
+  <developer_name xml:lang="en_GB">elementary, Inc.</developer_name>
+  <developer_name xml:lang="de">elementary, Inc.</developer_name>
+  <developer_name xml:lang="cs">elementary, Inc.</developer_name>
+  <developer_name xml:lang="ca">elementary, Inc.</developer_name>
+  <url type="homepage">https://elementary.io/</url>
+  <url type="bugtracker">https://github.com/elementary/files/issues</url>
+  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/files/discussions/categories/q-a</url>
+  <url type="translate">https://l10n.elementary.io/projects/files</url>
+  <update_contact>contact_AT_elementary.io</update_contact>
+</component>

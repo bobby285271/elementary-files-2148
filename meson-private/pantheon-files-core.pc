@@ -1,0 +1,9 @@
+prefix=/nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: elementary Files Core Library
+Description: Core library used by io.elementary.files and by io.elementary.file-chooser
+Version: 6.3.0
+Libs: -L${libdir} -lpantheon-files-core
+Cflags: -I${includedir}/pantheon-files-core

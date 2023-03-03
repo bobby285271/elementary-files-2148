@@ -1,0 +1,16 @@
+[options]
+auto_features = enabled
+wrap_mode = nodownload
+prefix = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0
+bindir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/bin
+includedir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/include
+infodir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/share/info
+libdir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/lib
+libexecdir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/libexec
+localedir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/share/locale
+mandir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/share/man
+sbindir = /nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/sbin
+buildtype = plain
+
+[properties]
+

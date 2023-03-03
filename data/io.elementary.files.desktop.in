@@ -1,0 +1,24 @@
+[Desktop Entry]
+Name=Files
+Comment=Browse your files
+Keywords=folder;manager;explore;disk;filesystem;
+GenericName=File Manager
+Exec=io.elementary.files %U
+#TRANSLATORS This string is an icon name and should not be translated.
+Icon=system-file-manager
+Terminal=false
+StartupNotify=true
+Type=Application
+MimeType=inode/directory;
+Categories=System;
+X-GNOME-Gettext-Domain=io.elementary.files
+X-GNOME-UsesNotifications=true
+Actions=WindowNew;Root;
+
+[Desktop Action WindowNew]
+Name=New Window
+Exec=io.elementary.files -n
+
+[Desktop Action Root]
+Name=New Window As Administrator
+Exec=io.elementary.files-pkexec

@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=io.elementary.files.db
+Exec=/nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/bin/io.elementary.files-daemon

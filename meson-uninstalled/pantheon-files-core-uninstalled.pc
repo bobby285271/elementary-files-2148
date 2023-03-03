@@ -1,0 +1,10 @@
+prefix=/build/source/build
+includedir=${prefix}/include
+libdir=${prefix}/lib
+srcdir=/build/source
+
+Name: elementary Files Core Library
+Description: Core library used by io.elementary.files and by io.elementary.file-chooser
+Version: 6.3.0
+Libs: -L${prefix}/libcore -lpantheon-files-core
+Cflags: -I${prefix}/libcore -I${srcdir}/libcore

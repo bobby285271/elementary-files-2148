@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>elementary</vendor>
+  <vendor_url>https://github.com/elementary/files</vendor_url>
+  <icon_name>system-file-manager</icon_name>
+  <action id="org.freedesktop.policykit.pkexec.io.elementary.files">
+    <description>Run Pantheon Files as Administrator</description>
+    <description xml:lang="zh_TW">以管理員身份執行 Pantheon 檔案</description>
+    <description xml:lang="zh_CN">以管理员身份运行文件管理器</description>
+    <description xml:lang="uk">Запуск Pantheon файлів в якості адміністратора</description>
+    <description xml:lang="tr">Pantheon Dosyalar'ı yönetici olarak çalıştır</description>
+    <description xml:lang="sv">Kör Pantheon Filer som administratör</description>
+    <description xml:lang="sr">Покрените Пантеон датотеке као администратор</description>
+    <description xml:lang="sk">Spustiť súbory Pantheonu ako správca</description>
+    <description xml:lang="ru">Запустить Pantheon Files с правами администратора</description>
+    <description xml:lang="pt_BR">Executar Pantheon Files como administrador</description>
+    <description xml:lang="pt">Executar o Ficheiros como Administrador</description>
+    <description xml:lang="pl">Uruchom Pliki Pantheon jako administrator</description>
+    <description xml:lang="nl">Nieuw venster als beheerder</description>
+    <description xml:lang="nb">Kjør programmet Filer som administrator</description>
+    <description xml:lang="mr">प्रशासक म्हणून पँथियन फायली चालवा</description>
+    <description xml:lang="lt">Vykdyti Pantheon failus kaip administratorius</description>
+    <description xml:lang="ku">Panthenon Files'ê Weke Rêvebir karbîne</description>
+    <description xml:lang="ko">관리자 권한으로 실행하기</description>
+    <description xml:lang="ja">“ファイル”を管理者として実行</description>
+    <description xml:lang="it">Esegui Pantheon Files come amministratore</description>
+    <description xml:lang="id">Jalankan Berkas Pantheon sebagai Administrator</description>
+    <description xml:lang="hu">Pantheon Fájlkezelő futtatása rendszergazdaként</description>
+    <description xml:lang="hr">Pokreni Pantheon datoteke kao Administrator</description>
+    <description xml:lang="he">הפעלת Pantheon Files במצב ניהול</description>
+    <description xml:lang="fr">Démarrer Fichiers en tant qu'administrateur</description>
+    <description xml:lang="fi">Suorita Tiedostonhallinta ylläpitäjän oikeuksin</description>
+    <description xml:lang="es">Ejecutar Archivos como administrador</description>
+    <description xml:lang="eo">Lanĉi programon Dosieroj kiel administranto</description>
+    <description xml:lang="en_GB">Run Pantheon Files as Administrator</description>
+    <description xml:lang="de">Pantheon-Dateien als Systemverwalter ausführen</description>
+    <description xml:lang="da">Kør Pantheon Filer som administrator</description>
+    <description xml:lang="cs">Spustit Pantheon Soubory jako správce</description>
+    <description xml:lang="ca">Executa el Fitxers del Pantheon com a administrador</description>
+    <message>Authentication is required to run Files as Administrator</message>
+    <message xml:lang="zh_TW">若要以管理員身份執行必須通過身份核對</message>
+    <message xml:lang="zh_CN">以管理员身份运行文件管理器需要进行验证</message>
+    <message xml:lang="uk">Автентифікація потрібна для запуску Файлів від імені адміністратора</message>
+    <message xml:lang="tr">Dosyaları Yönetici olarak çalıştırmak için kimlik doğrulama gerekir</message>
+    <message xml:lang="sv">Autentisering krävs för att köra programmet Filer som administratör</message>
+    <message xml:lang="sr">Потврђивање идентитета је потребно за покретања Датотека као администратор</message>
+    <message xml:lang="sk">Vyžaduje sa povolenie pre beh aplikácie Súbory v režime správcu</message>
+    <message xml:lang="ru">Для запуска файлового менеджера с правами администратора требуется аутентификация</message>
+    <message xml:lang="pt_BR">É necessária autenticação para executar Arquivos como Administrador</message>
+    <message xml:lang="pt">Autenticação é necessária para executar o Ficheiros como Administrador</message>
+    <message xml:lang="pl">Aby uruchomić Pliki jako administrator wymagane jest uwierzytelnienie</message>
+    <message xml:lang="pa">ਫ਼ਾਇਲਸ (ਸਾਫ਼ਟਵੇਅਰ) ਨੂੰ ਬਤੌਰ ਐਡਮਿਨ ਚਲਾਉਣ ਲਈ ਵਰਤੋਂਕਾਰ ਦੀ ਤਸਦੀਕ ਕਰਨ ਦੀ ਲੋੜ ਪੈਂਦੀ ਹੈ</message>
+    <message xml:lang="nl">Authenticatie is vereist om een nieuw venster te openen als beheerder</message>
+    <message xml:lang="nb">Autentisering kreves for å kjøre programmet Filer som administrator</message>
+    <message xml:lang="mr">प्रशासक म्हणून फायली चालविण्यासाठी प्रमाणीकरण आवश्यक आहे</message>
+    <message xml:lang="lt">Norint vykdyti Failus administratoriaus teisėmis, reikia nustatyti tapatybę</message>
+    <message xml:lang="ko">관리자 권한으로 실행하려면 인증이 필요합니다</message>
+    <message xml:lang="ja">“ファイル”を管理者として実行するには認証が必要です</message>
+    <message xml:lang="it">È necessario autenticarsi per eseguire File come amministratore</message>
+    <message xml:lang="id">Otentikasi diperlukan untuk menjalankan Berkas sebagai Administrator</message>
+    <message xml:lang="hu">A Fájlkezelő rendszergazdaként történő futtatásához hitelesítés szükséges</message>
+    <message xml:lang="hr">Potrebna je ovjera za pokretanje Datoteka kao Administratora</message>
+    <message xml:lang="he">נדרש אימות כדי להפעיל את היישום קבצים כמנהל המערכת</message>
+    <message xml:lang="fr">Une authentification est requise pour démarrer Fichiers en tant qu'administrateur</message>
+    <message xml:lang="fi">Tiedostonhallinnan suorittaminen ylläpitäjän oikeuksin vaatii tunnistautumisen</message>
+    <message xml:lang="es">Es necesario autenticarse para lanzar Archivos como administrador</message>
+    <message xml:lang="eo">Necesas aŭtentigon por lanĉi programon Dosieroj kiel administranto</message>
+    <message xml:lang="en_GB">Authentication is required to run Files as Administrator</message>
+    <message xml:lang="de">Damit Dateien als Systemverwalter ausgeführt werden kann, ist eine Legitimierung nötig</message>
+    <message xml:lang="da">Godkendelse er påkrævet for at køre Filer som administrator</message>
+    <message xml:lang="cs">Pro spuštění aplikace Soubory s oprávněními na úrovni správce systému je vyžadováno ověření se</message>
+    <message xml:lang="ca">Cal autenticació per executar el Fitxers com a administrador.</message>
+    <message xml:lang="bg">Нужно е потвърждение за да изпълните Файловете като Администратор</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/bin/io.elementary.files</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>

@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.impl.portal.desktop.elementary.files
+Exec=/nix/store/sys8jqv7mdwgbibbfavlmlf0ddlv1l51-elementary-files-6.3.0/libexec/io.elementary.files.xdg-desktop-portal
+SystemdService=io.elementary.files.xdg-desktop-portal.service
